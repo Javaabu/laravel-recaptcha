@@ -1,9 +1,9 @@
 **Laravel ReCAPTCHA** is a very simply-to-use Laravel 5 package to embed Google reCAPTCHA in your application.
 
 [![Test Status](../../actions/workflows/run-tests.yml/badge.svg)](../../actions/workflows/ci.yml)
-[![Packagist version](https://img.shields.io/packagist/v/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://packagist.org/packages/biscolab/laravel-recaptcha)
-[![Downloads](https://img.shields.io/packagist/dt/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://packagist.org/packages/biscolab/laravel-recaptcha/stats)
-[![MIT License](https://img.shields.io/github/license/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://github.com/biscolab/laravel-recaptcha/blob/master/LICENSE)
+[![Packagist version](https://img.shields.io/packagist/v/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://packagist.org/packages/javaabu/laravel-recaptcha)
+[![Downloads](https://img.shields.io/packagist/dt/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://packagist.org/packages/javaabu/laravel-recaptcha/stats)
+[![MIT License](https://img.shields.io/github/license/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://github.com/javaabu/laravel-recaptcha/blob/master/LICENSE)
 
 ## What is reCAPTCHA?
 
