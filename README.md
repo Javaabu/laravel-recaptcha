@@ -513,4 +513,4 @@ The result should be something like that:
         'custom_validation' => 'myCustomValidation'
     ]) !!}    
 </head>
-``` 
+```
