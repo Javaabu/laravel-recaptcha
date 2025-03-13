@@ -1,11 +1,9 @@
 **Laravel ReCAPTCHA** is a very simply-to-use Laravel 5 package to embed Google reCAPTCHA in your application.
 
-[![Build Status](https://travis-ci.org/biscolab/laravel-recaptcha.svg?branch=master#img-thumbnail)](https://travis-ci.org/biscolab/laravel-recaptcha)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/biscolab/laravel-recaptcha/badges/quality-score.png?b=master#img-thumbnail)](https://scrutinizer-ci.com/g/biscolab/laravel-recaptcha/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/biscolab/laravel-recaptcha/badges/coverage.png?b=master#img-thumbnail)](https://scrutinizer-ci.com/g/biscolab/laravel-recaptcha/?branch=master)
-[![Packagist version](https://img.shields.io/packagist/v/biscolab/laravel-recaptcha.svg#img-thumbnail)](https://packagist.org/packages/biscolab/laravel-recaptcha)
-[![Downloads](https://img.shields.io/packagist/dt/biscolab/laravel-recaptcha.svg#img-thumbnail)](https://packagist.org/packages/biscolab/laravel-recaptcha/stats)
-[![MIT License](https://img.shields.io/github/license/biscolab/laravel-recaptcha.svg#img-thumbnail)](https://github.com/biscolab/laravel-recaptcha/blob/master/LICENSE)
+[![Test Status](../../actions/workflows/run-tests.yml/badge.svg)](../../actions/workflows/ci.yml)
+[![Packagist version](https://img.shields.io/packagist/v/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://packagist.org/packages/biscolab/laravel-recaptcha)
+[![Downloads](https://img.shields.io/packagist/dt/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://packagist.org/packages/biscolab/laravel-recaptcha/stats)
+[![MIT License](https://img.shields.io/github/license/javaabu/laravel-recaptcha.svg#img-thumbnail)](https://github.com/biscolab/laravel-recaptcha/blob/master/LICENSE)
 
 ## What is reCAPTCHA?
 
@@ -47,7 +45,7 @@ Follow the instructions and at the end of the process you will find **Site key**
 You can install the package via composer:
 
 ```sh
-$ composer require biscolab/laravel-recaptcha
+$ composer require javaabu/laravel-recaptcha
 ```
 
 Laravel 5.5 (or greater) uses package auto-discovery, so doesn't require you to manually add the Service Provider, but if you don't use auto-discovery `ReCaptchaServiceProvider` must be registered in `config/app.php`:

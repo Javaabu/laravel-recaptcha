@@ -108,11 +108,19 @@ class ReCaptchaTest extends TestCase
 			->setConstructorArgs([
 				"api_site_key",
 				"api_secret_key"
-			])
-			->setMethods([
-				'returnArray'
-			])
-			->getMock();
+			]);
+
+        if (method_exists($mock, 'setMethods')) {
+            $mock = $mock->setMethods([
+                'returnArray'
+            ]);
+        } else {
+            $mock = $mock->onlyMethods([
+                'returnArray'
+            ]);
+        }
+
+		$mock = $mock->getMock();
 
 		$mock->method('returnArray')
 			->willReturn(true);

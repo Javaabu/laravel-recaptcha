@@ -11,8 +11,8 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        php: [7.3, 7.4, '8.0', 8.1, '8.2']
-        laravel: [7, 8, 9, 10, '11']
+        php: [7.3, 7.4, '8.0', 8.1, '8.2', 8.3, 8.4]
+        laravel: [7, 8, 9, 10, '11', 12]
         exclude:
           - php: 7.3
             laravel: 10
@@ -31,6 +31,14 @@ jobs:
           - laravel: '11'
             php: '8.0'
           - laravel: '11'
+            php: 8.1
+          - laravel: '12'
+            php: 7.3
+          - laravel: '12'
+            php: 7.4
+          - laravel: '12'
+            php: '8.0'
+          - laravel: '12'
             php: 8.1
 
     name: PHP ${{ matrix.php }} Test on ${{ matrix.os }} – Laravel ${{ matrix.laravel }}
