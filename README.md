@@ -28,7 +28,9 @@ Follow the instructions and at the end of the process you will find **Site key**
 ## System requirements
 
 | Package version | reCaptcha version             | PHP version           | Laravel version         | 
-| --------------- | ----------------------------- | --------------------- | ----------------------- | 
+|-----------------| ----------------------------- | --------------------- |-------------------------|
+| 6.3             | v3, v2 Invisible, v2 Checkbox | 7.3 or greater        | 7, 8, 9, 10, 11, 12, 13 |
+| 6.2             | v3, v2 Invisible, v2 Checkbox | 7.3 or greater        | 7, 8, 9, 10, 11, 12     |
 | 6.1             | v3, v2 Invisible, v2 Checkbox | 7.3 or greater        | 7, 8, 9, 10, 11         | 
 | 6.0             | v3, v2 Invisible, v2 Checkbox | 7.3 or greater        | 7, 8, 9, 10             | 
 | 5.x             | v3, v2 Invisible, v2 Checkbox | 7.3 or greater        | 7, 8, 9                 | 
